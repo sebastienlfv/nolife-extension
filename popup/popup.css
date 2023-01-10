@@ -1,0 +1,42 @@
+body {
+  width: 400px;
+  height: 500px;
+  background-image: url('../images/fond.png');
+  background-size: cover;
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+}
+
+#main-img {
+  width: 150px;
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.test-p {
+  color: gray;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  margin-top: 50px;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.button-div {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.button-div .website {
+  background-color: red;
+  border: none;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+}
